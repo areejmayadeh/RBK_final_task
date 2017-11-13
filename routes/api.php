@@ -16,3 +16,6 @@ use Illuminate\Http\Request;
 Route::middleware('auth:api')->get('/user', function (Request $request) {
     return $request->user();
 });
+
+
+//api.openweathermap.org/data/2.5/weather?q=Amman&appid=e479529dac7be51182459664fd6ea1de
