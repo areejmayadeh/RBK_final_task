@@ -62,11 +62,8 @@
             .m-b-md {
                 margin-bottom: 30px;
             }
-        </style> 
-        <link rel="stylesheet" href="<?php echo asset('css/main.css'); ?>" type="text/css">
+        </style>
     </head>
-
-
     <body>
         <div class="flex-center position-ref full-height">
             @if (Route::has('login'))
@@ -81,7 +78,7 @@
             @endif
 
             <div class="content">
-                <div class="title m-b-md myColor">
+                <div class="title m-b-md">
                     Laravel
                 </div>
 

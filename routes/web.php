@@ -10,24 +10,14 @@
 | contains the "web" middleware group. Now create something great!
 |
 */
+use Illuminate\Database\Schema\Blueprint;
+use Illuminate\Database\Migrations\Migration;
 
 Route::get('/', function () {
-
-
-
+	// Schema::create('weather', function (Blueprint $table) {
+ //           $table->increments('id');
+ //           $table->string('city');
+ //           // $table->save();
+ //           });
     return view('welcome');
 });
-
-Route::get('/weather',function(){
-	return view('weather');
-});
-
-Route::get('hello/{name}',function($name){
-	return 'hello' . $name;
-});
-
-Route::get('hello/profile/{name}',function($name){
-	return " Welcome to profile $name";
-});
-
-// e479529dac7be51182459664fd6ea1de

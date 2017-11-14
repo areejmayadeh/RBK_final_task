@@ -1,1 +1,0 @@
-Weather is cold 
